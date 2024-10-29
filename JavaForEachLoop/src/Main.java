@@ -8,6 +8,9 @@ public class Main {
 		String[] animali = {"cane","gatto"};
 		//per ogni stringa indice in animali stampami l'animale
 		for(String i : animali) System.out.println(i);
+		//creo un array
+		int[] nums = {1,3,4,1,6};
+		for(int i : nums) System.out.println(i);
 		//creo una collection
 		ArrayList<Integer> numeri = new ArrayList();
 		numeri.add(12);
