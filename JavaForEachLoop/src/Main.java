@@ -12,7 +12,7 @@ public class Main {
 		int[] nums = {1,3,4,1,6};
 		for(int i : nums) System.out.println(i);
 		//creo una collection
-		ArrayList<Integer> numeri = new ArrayList();
+		ArrayList<Integer> numeri = new ArrayList<Integer>();
 		numeri.add(12);
 		numeri.add(98);
 		numeri.add(863);
