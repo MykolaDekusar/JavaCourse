@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Main {
 
@@ -7,6 +8,13 @@ public class Main {
 		String[] animali = {"cane","gatto"};
 		//per ogni stringa indice in animali stampami l'animale
 		for(String i : animali) System.out.println(i);
+		//creo una collection
+		ArrayList<Integer> numeri = new ArrayList();
+		numeri.add(12);
+		numeri.add(98);
+		numeri.add(863);
+		//per ogni integer in indice i dentro numeri stampami il nunmero
+		for(Integer i : numeri) System.out.println(i);
 	}
 
 }
