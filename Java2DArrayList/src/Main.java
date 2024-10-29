@@ -20,6 +20,10 @@ public class Main {
 		nomiData.add(voti);
 		nomiData.add(data);
 		System.out.println(nomiData);
+		//per accedere ad un singolo elemento dell' ArrayList prima dobbiamo 
+		//prenderne l'indice e poi l'indice dell'elemento su quel ArrayList
+		System.out.println(nomiData.get(1).get(1));
+		//prendo il secondo ArrayList e il secondo elemento (21)
 	}
 
 }
