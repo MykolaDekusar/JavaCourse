@@ -6,6 +6,8 @@ public class Main {
 		// global = dichiarato fuori dal metodo ma dentro la classe, visibile a tutte
 		// le parti della classe 
 
+		LanciaDado lanciaDado = new LanciaDado();
+		lanciaDado.roll();
 	}
 
 }
