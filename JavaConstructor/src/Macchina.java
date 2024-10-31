@@ -17,4 +17,8 @@ public class Macchina {
 		this.vMax=vMax;
 		this.consumi=consumi;
 	}
+	//creiamo dei metodi
+	void accellera() {
+		System.out.println(this.marca + " sta accelerando e ha quasi raggiunto i "+this.vMax+"km/h");
+	}
 }
