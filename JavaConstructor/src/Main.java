@@ -13,6 +13,7 @@ public class Main {
 		//richiamiamo i metodi
 		macchina1.accellera(); //Hyundai sta accelerando e ha quasi raggiunto i 240km/h
 		macchina2.accellera(); //Mercedes sta accelerando e ha quasi raggiunto i 280km/h
+		System.out.println(macchina1.toString());
 	}
 
 }
