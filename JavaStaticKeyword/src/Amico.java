@@ -9,4 +9,10 @@ public class Amico {
 		nAmici++;
 	}
 	
+	//creiamo un metodo static
+	
+	public static void quantiAmici() {
+		System.out.println("Hai "+nAmici+" amici nella tua vita");
+	}
+	
 }

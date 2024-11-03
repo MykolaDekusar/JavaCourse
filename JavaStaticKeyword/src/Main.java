@@ -12,6 +12,10 @@ public class Main {
 		System.out.println(amico1.nome);
 		System.out.println(amico2.nome);
 		System.out.println(amico3.nome);
+		//il static ci permette direttamente di accedere al dato dalla classe
+		System.out.println(Amico.nAmici);
+		//richiamiamo il metodo static dalla classe Amico
+		Amico.quantiAmici();
 	}
 
 }
