@@ -1,4 +1,5 @@
 
-public class Cane {
+public class Cane extends Animale{
 	
+
 }
