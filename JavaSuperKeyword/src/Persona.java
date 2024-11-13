@@ -6,4 +6,8 @@ public class Persona {
 		this.nome= nome;
 		this.eta = eta;
 	}
+	//override del metodo toString
+		public String toString() {
+			return this.nome + " " + this.eta;
+		}
 }
