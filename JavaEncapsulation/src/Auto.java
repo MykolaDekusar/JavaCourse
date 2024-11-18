@@ -24,4 +24,13 @@ public class Auto {
 	public void setAnno(int anno) {
 		this.anno = anno;
 	}
+	
+	//ora possiamo usare il constructor richiamando i setter
+	Auto(String marca, String modello, int anno){
+		this.setMarca(marca);
+		this.setModello(modello);
+		this.setAnno(anno);
+	}
+	
+	
 }
