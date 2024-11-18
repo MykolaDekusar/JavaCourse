@@ -14,4 +14,14 @@ public class Auto {
 	public int getAnno() {
 		return anno;
 	}
+	//creiamo i setter
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+	public void setModello(String modello) {
+		this.modello = modello;
+	}
+	public void setAnno(int anno) {
+		this.anno = anno;
+	}
 }
