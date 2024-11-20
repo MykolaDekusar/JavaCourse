@@ -31,4 +31,10 @@ public class Auto {
 	public int getYear() {
 		return this.year;
 	}
+	//creiamo un metodo per copiare la classe
+	public void copy(Auto x) {
+		this.setMaker(x.getMaker());
+		this.setModel(x.getModel());
+		this.setYear(x.getYear());
+	}
 }
