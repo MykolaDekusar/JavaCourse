@@ -9,6 +9,10 @@ public class Auto {
 		this.setModel(model);
 		this.setYear(year);
 	}
+	//creiamo un overloaded constructor per copiare la classe durante la creazione
+	Auto(Auto x){
+		this.copy(x);
+	}
 	//creo i setter
 	public void setMaker(String maker) {
 		this.maker=maker;
