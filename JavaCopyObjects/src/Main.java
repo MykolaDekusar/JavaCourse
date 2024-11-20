@@ -11,6 +11,7 @@ public class Main {
 		//utilizziamo l'overloaded constructor per passarli direttamente la classe
 		Auto auto3=new Auto(auto2);
 		System.out.println(auto3.getMaker()+", "+ auto3.getModel()+", "+auto3.getYear());
+		//
 	}
 
 }
