@@ -5,6 +5,11 @@ public class Main {
 		// TODO Auto-generated method stub
 		Aquila aquila = new Aquila();
 		aquila.caccia();
+		Coniglio coniglio = new Coniglio();
+		coniglio.scappa();
+		Pesce pesce = new Pesce();
+		pesce.scappa();
+		pesce.caccia();
 	}
 
 }
